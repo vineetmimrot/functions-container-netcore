@@ -10,9 +10,9 @@ using Newtonsoft.Json;
 
 namespace LocalFunctionProjCore
 {
-    public static class TestHttp
+    public static class TestHttp1
     {
-        [FunctionName("TestHttp")]
+        [FunctionName("TestHttp1")]
         public static async Task<IActionResult> Run(
             [HttpTrigger(AuthorizationLevel.Anonymous, "get", "post", Route = null)] HttpRequest req,
             ILogger log)
